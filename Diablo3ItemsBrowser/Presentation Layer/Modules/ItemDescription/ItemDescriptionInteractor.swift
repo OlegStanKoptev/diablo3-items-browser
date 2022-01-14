@@ -42,14 +42,7 @@ extension ItemDescriptionInteractorImplementation {
     private func loadItemDescription() {
         guard let item = item, let id = item.path?.secondComponent else { return }
         localService.getItemDescription(of: id, onSuccess: { localItemDescription in
-            if localItemDescription.isEmpty {
-                // print("local success empty")
-                self.loadRemoteDataAndPresentIt()
-            } else {
-                // print("local success not empty")
-                self.cacheAndNotifyPresenter(localItemDescription)
-//                self.loadRemoteDataAndPresentIt()
-            }
+//            self.cacheAndNotifyPresenter(localItemDescription)
         }, onFailure: { message in
             print("local error")
             print(message)
@@ -61,8 +54,8 @@ extension ItemDescriptionInteractorImplementation {
         guard let item = item, let id = item.path?.secondComponent else { return }
         remoteService.getItemDescription(of: id) { remoteItemDescription in
             // print("remote success")
-            self.cacheAndNotifyPresenter(remoteItemDescription)
-            self.saveToCoreData(remoteItemDescription)
+//            self.cacheAndNotifyPresenter(remoteItemDescription)
+//            self.saveToCoreData(remoteItemDescription)
         } onFailure: { message in
             print("remote error")
             print(message)
