@@ -68,7 +68,7 @@
 		974638172775EC7200953A8C /* ItemTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypesView.swift; sourceTree = "<group>"; };
 		974638192775EC8700953A8C /* ItemTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypesViewController.swift; sourceTree = "<group>"; };
 		9746381B2775ECEC00953A8C /* ItemTypesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTypesInteractor.swift; sourceTree = "<group>"; };
-		9746381F2775ECF300953A8C /* ItemTypesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTypesPresenter.swift; path = "../../../../../../Diablo3ItemsBrowserCoreDataTest/Diablo3ItemsBrowserCoreDataTest/Presentation Layer/Modules/Types/ItemTypesPresenter.swift"; sourceTree = "<group>"; };
+		9746381F2775ECF300953A8C /* ItemTypesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTypesPresenter.swift; sourceTree = "<group>"; };
 		974638212775ED0200953A8C /* ItemTypesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTypesRouter.swift; sourceTree = "<group>"; };
 		974638232775ED0600953A8C /* ItemTypesConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTypesConfigurator.swift; sourceTree = "<group>"; };
 		974638292775F1B200953A8C /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
